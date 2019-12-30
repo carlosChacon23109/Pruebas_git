@@ -1,0 +1,35 @@
+----------------------------------------------------------------------------------------
+git init			//Inicializar git
+git config --global user.name "Maralexis"
+git config --global user.email "marlongonzalez@unisangil.edu.co"	
+git config --global core.editor notepad.exe
+ssh-keygen			//Generar clave publica para conexion ssh
+----------------------------------------------------------------------------------------
+git feth origin			//Verificar si hay archivos nuevos
+git status
+git add . 			//Guardar todo con . o por nombre de archivos
+git diff  			//Notar las diferencias de los archivos
+git commit -m "mensajes"
+git commit -amend 		//Volver a guardar en el mismo commit
+git checkout -- Hola.php 	//Deshacer el add
+git reset HEAD Hola.php 	//Deshacer commit
+git rm -r carpeta		//Eliminar una carpeta con todo
+
+------------------------------------------------------------------------------------------	
+
+------------------------------------------------------------------------------------------
+git checkout -- Hola.php	//Volver a guardar en el mismo commit
+git push --set-upstream origin master //Para poder hacer push
+git clone https://gitlab.com/Maralexis/Prueba2.git //Descargar respositorio con https
+git clone git@gitlab.com:malexisgonzalez10/proyectgit.git
+git remote add origin git@gitlab.com:malexisgonzalez10/proyectgit.git
+git pull			//Descargar respositorio
+git push			//Enviar a repositorio
+-------------------------------------------------------------------------------------------
+git branch otrarama		//Crear rama
+git checkout  -b otra		//Crear rama y cambiarse a otra
+git checkout otrarama		//Cambiar de rama
+git branch -d otrarama		//Eliminar rama
+git merge otrarama		//Absorbe y combina otrarama a la rama principal
+------------------------------------------------------------------------------------------
+git merge --abort		//Salir de Mergerin
